@@ -1,9 +1,76 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="2t6RAkEXw6tURz-xVzC8">
-    <mxGraphModel>
+    <mxGraphModel dx="671" dy="332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vlM3vvVPuQ_DbB2GBHVn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vlM3vvVPuQ_DbB2GBHVn-2" target="vlM3vvVPuQ_DbB2GBHVn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlM3vvVPuQ_DbB2GBHVn-2" value="Mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vlM3vvVPuQ_DbB2GBHVn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vlM3vvVPuQ_DbB2GBHVn-3" target="vlM3vvVPuQ_DbB2GBHVn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlM3vvVPuQ_DbB2GBHVn-3" value="Inisialisasi &lt;i&gt;processes&lt;/i&gt;, &lt;i&gt;allocation&lt;/i&gt;, &lt;i&gt;maximum&lt;/i&gt;, &lt;i&gt;available&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vlM3vvVPuQ_DbB2GBHVn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vlM3vvVPuQ_DbB2GBHVn-5" target="vlM3vvVPuQ_DbB2GBHVn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlM3vvVPuQ_DbB2GBHVn-5" value="Menghitung matriks&amp;nbsp;&lt;i&gt;need &lt;/i&gt;(fungsi&amp;nbsp;&lt;div&gt;&lt;i&gt;calculate_need&lt;/i&gt;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="350" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vlM3vvVPuQ_DbB2GBHVn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vlM3vvVPuQ_DbB2GBHVn-7" target="vlM3vvVPuQ_DbB2GBHVn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlM3vvVPuQ_DbB2GBHVn-7" value="&lt;div&gt;Menampilkan grafik allocation vs need (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fungsi &lt;/span&gt;&lt;i style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;visualize_allocation&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;_and_need&lt;/i&gt;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="115" y="460" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vlM3vvVPuQ_DbB2GBHVn-9" value="Mulai Banker’s Algorithm untuk mengecek safe state dan urutan eksekusi (fungsi&amp;nbsp;&lt;div&gt;&lt;i&gt;is_safe_state&lt;/i&gt;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="290" y="180" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vlM3vvVPuQ_DbB2GBHVn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vlM3vvVPuQ_DbB2GBHVn-11" target="vlM3vvVPuQ_DbB2GBHVn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlM3vvVPuQ_DbB2GBHVn-17" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vlM3vvVPuQ_DbB2GBHVn-14">
+          <mxGeometry x="-0.1362" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vlM3vvVPuQ_DbB2GBHVn-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vlM3vvVPuQ_DbB2GBHVn-11" target="vlM3vvVPuQ_DbB2GBHVn-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="365" />
+              <mxPoint x="410" y="160" />
+              <mxPoint x="505" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vlM3vvVPuQ_DbB2GBHVn-19" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vlM3vvVPuQ_DbB2GBHVn-18">
+          <mxGeometry x="-0.7984" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vlM3vvVPuQ_DbB2GBHVn-11" value="Semua proses&amp;nbsp;&lt;div&gt;bisa selesai?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="292.5" y="310" width="105" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vlM3vvVPuQ_DbB2GBHVn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vlM3vvVPuQ_DbB2GBHVn-9" target="vlM3vvVPuQ_DbB2GBHVn-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlM3vvVPuQ_DbB2GBHVn-13" value="&lt;div&gt;Print &quot;Sistem&amp;nbsp;&lt;/div&gt;&lt;div&gt;dalam keadaan&amp;nbsp;&lt;/div&gt;&lt;div&gt;AMAN&quot;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;dan&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;m&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;enampilkan&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;urutan eksekusi&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;yang mungkin (&lt;i&gt;safe_sequence&lt;/i&gt;)&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="270" y="470" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vlM3vvVPuQ_DbB2GBHVn-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vlM3vvVPuQ_DbB2GBHVn-15" target="vlM3vvVPuQ_DbB2GBHVn-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlM3vvVPuQ_DbB2GBHVn-15" value="&lt;div&gt;Print &quot;Sistem&amp;nbsp;&lt;/div&gt;&lt;div&gt;TIDAK AMAN!&quot;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="440" y="180" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vlM3vvVPuQ_DbB2GBHVn-20" value="Mengidentifikasi potensi deadlock dengan Wait-For Graph (fungsi &lt;i&gt;visualize_wait_&lt;/i&gt;&lt;div&gt;&lt;i&gt;for_graph&lt;/i&gt;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="450" y="260" width="110" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
